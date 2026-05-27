@@ -1,9 +1,9 @@
 from rank_bm25 import BM25Okapi
 
 docs = [
-    "Hello i am krishna working intern at zignuts technolab",
     "i krishna doing internship in field of AI,ML",
-    "what i learn is beyond the GTU syllabus"
+    "i doing internship in field of AI,ML",
+    "krishna"
 ]
 
 tokenized_docs = [doc.lower().split() for doc in docs]
